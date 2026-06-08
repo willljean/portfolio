@@ -325,7 +325,13 @@ h1 {
   background-repeat: no-repeat;
 }
 
-.service-preview,
+.service-preview {
+  background-image: url("../assets/service-site.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .grid-preview,
 .shop-preview,
 .chart-preview {
@@ -334,8 +340,11 @@ h1 {
   background: var(--paper);
 }
 
+.service-preview::before {
+  background-image: url("../assets/service-site.png");
+}
+
 /* shared icon styling */
-.service-preview::before,
 .grid-preview::before,
 .shop-preview::before,
 .chart-preview::before {
