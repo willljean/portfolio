@@ -340,10 +340,6 @@ h1 {
   background: var(--paper);
 }
 
-.service-preview::before {
-  background-image: url("../assets/service-site.png");
-}
-
 /* shared icon styling */
 .grid-preview::before,
 .shop-preview::before,
