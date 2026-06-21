@@ -332,7 +332,13 @@ h1 {
   background-repeat: no-repeat;
 }
 
-.grid-preview,
+.grid-preview {
+  background-image: url("../assets/memory-game.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .shop-preview,
 .chart-preview {
   position: relative;
@@ -341,7 +347,6 @@ h1 {
 }
 
 /* shared icon styling */
-.grid-preview::before,
 .shop-preview::before,
 .chart-preview::before {
   content: "";
