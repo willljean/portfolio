@@ -339,7 +339,14 @@ h1 {
   background-repeat: no-repeat;
 }
 
-.shop-preview,
+.shop-preview {
+  background-image: url("../assets/ecommerce-site.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
 .chart-preview {
   position: relative;
   overflow: hidden;
@@ -347,7 +354,6 @@ h1 {
 }
 
 /* shared icon styling */
-.shop-preview::before,
 .chart-preview::before {
   content: "";
   position: absolute;
